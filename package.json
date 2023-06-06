@@ -1,0 +1,27 @@
+{
+  "name": "random-num-range",
+  "version": "1.0.0",
+  "description": "Generate a random number between a given range",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CRKNO/random-num-range.git"
+  },
+  "keywords": [],
+  "author": "Cristian Cano <cristiancanosantiago@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CRKNO/random-num-range/issues"
+  },
+  "homepage": "https://github.com/CRKNO/random-num-range#readme",
+  "bin": {
+    "random-num-range": "./bin/global.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "g": "^2.0.1"
+  }
+}
